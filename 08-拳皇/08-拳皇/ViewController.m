@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -14,7 +15,7 @@
 @property (nonatomic,strong) NSArray *sandImages;
 @property (nonatomic,strong) NSArray *bigImages;
 @property (nonatomic,strong) NSArray *smallImages;
-
+@property (nonatomic,strong) AVPlayer *player;
 @end
 
 @implementation ViewController
@@ -25,6 +26,7 @@
     self.bigImages = [self loadImagesWithImagePrefix:@"dazhao" count:87];
     self.smallImages = [self loadImagesWithImagePrefix:@"xiaozhao1" count:21];
     [self stand];
+    self.player = [[AVPlayer alloc] init];
 }
 
 - (NSArray *)loadImagesWithImagePrefix:(NSString *)prefix count:(NSInteger)count
@@ -45,26 +47,30 @@
     self.imageView.animationImages = nil;
 }
 - (IBAction)xiaozhao{
-    [self playZhaoWithImages:self.smallImages count:1 duration:1.5 isStand:NO];
+    [self playZhaoWithImages:self.smallImages count:1 duration:1.5 isStand:NO musicName:@"xiaozhao1.mp3"];
 }
 
 - (IBAction)dazhao{
-    [self playZhaoWithImages:self.bigImages count:1 duration:2.5 isStand:NO];
+    [self playZhaoWithImages:self.bigImages count:1 duration:2.5 isStand:NO musicName:@"dazhao.mp3"];
 }
 
 - (IBAction)stand{
-    [self playZhaoWithImages:self.sandImages count:0 duration:0.6 isStand:YES];
+    [self playZhaoWithImages:self.sandImages count:0 duration:0.6 isStand:YES musicName:nil];
     
 }
 
-- (void)playZhaoWithImages:(NSArray *)images count:(NSInteger)count duration:(NSTimeInterval)duration isStand:(BOOL)isStand{
+- (void)playZhaoWithImages:(NSArray *)images count:(NSInteger)count duration:(NSTimeInterval)duration isStand:(BOOL)isStand musicName:(NSString *)musicName{
     self.imageView.animationImages = images;
     self.imageView.animationDuration = duration;
     self.imageView.animationRepeatCount = count;
-    
     [self.imageView startAnimating];
     
     if(!isStand){
+        NSURL *url = [[NSBundle mainBundle] URLForResource:musicName withExtension:nil];
+        AVPlayerItem *playerItem = [[AVPlayerItem alloc] initWithURL:url];
+        [self.player replaceCurrentItemWithPlayerItem:playerItem];
+        [self.player play];
+        self.player.rate = 2.0;
         [self performSelector:@selector(stand) withObject:nil afterDelay:self.imageView.animationDuration];
     }
 }
