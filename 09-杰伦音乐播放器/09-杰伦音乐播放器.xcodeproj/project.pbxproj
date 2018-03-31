@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0BE0F84206FD8E200E60279 /* mySong2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0F81206FD8E100E60279 /* mySong2.mp3 */; };
+		D0BE0F85206FD8E200E60279 /* mySong1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0F82206FD8E100E60279 /* mySong1.mp3 */; };
+		D0BE0F86206FD8E200E60279 /* mySong3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0F83206FD8E200E60279 /* mySong3.mp3 */; };
 		DE03E765206E485800238437 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE03E764206E485800238437 /* AppDelegate.m */; };
 		DE03E768206E485800238437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE03E767206E485800238437 /* ViewController.m */; };
 		DE03E76B206E485800238437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE03E769206E485800238437 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0BE0F81206FD8E100E60279 /* mySong2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mySong2.mp3; sourceTree = "<group>"; };
+		D0BE0F82206FD8E100E60279 /* mySong1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mySong1.mp3; sourceTree = "<group>"; };
+		D0BE0F83206FD8E200E60279 /* mySong3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mySong3.mp3; sourceTree = "<group>"; };
 		DE03E760206E485800238437 /* 09-杰伦音乐播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-杰伦音乐播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE03E763206E485800238437 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE03E764206E485800238437 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0BE0F80206FD8D000E60279 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE0F82206FD8E100E60279 /* mySong1.mp3 */,
+				D0BE0F81206FD8E100E60279 /* mySong2.mp3 */,
+				D0BE0F83206FD8E200E60279 /* mySong3.mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
 		DE03E757206E485800238437 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +88,7 @@
 		DE03E762206E485800238437 /* 09-杰伦音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				D0BE0F80206FD8D000E60279 /* songs */,
 				DE03E779206E489400238437 /* images */,
 				DE03E763206E485800238437 /* AppDelegate.h */,
 				DE03E764206E485800238437 /* AppDelegate.m */,
@@ -165,9 +182,12 @@
 				DE03E76D206E485800238437 /* Assets.xcassets in Resources */,
 				DE03E784206E48A900238437 /* logo.png in Resources */,
 				DE03E787206E48A900238437 /* player_btn_pause_normal@2x.png in Resources */,
+				D0BE0F86206FD8E200E60279 /* mySong3.mp3 in Resources */,
 				DE03E76B206E485800238437 /* Main.storyboard in Resources */,
+				D0BE0F84206FD8E200E60279 /* mySong2.mp3 in Resources */,
 				DE03E783206E48A900238437 /* player_btn_pre_normal@2x.png in Resources */,
 				DE03E785206E48A900238437 /* player_btn_play_normal@2x.png in Resources */,
+				D0BE0F85206FD8E200E60279 /* mySong1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
