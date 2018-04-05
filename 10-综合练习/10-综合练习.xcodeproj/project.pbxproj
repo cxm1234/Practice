@@ -7,29 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0BE0F95207279FB00E60279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BE0F94207279FB00E60279 /* AppDelegate.m */; };
-		D0BE0F98207279FB00E60279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BE0F97207279FB00E60279 /* ViewController.m */; };
-		D0BE0F9B207279FC00E60279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0F99207279FC00E60279 /* Main.storyboard */; };
-		D0BE0F9D207279FC00E60279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0F9C207279FC00E60279 /* Assets.xcassets */; };
-		D0BE0FA0207279FC00E60279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0F9E207279FC00E60279 /* LaunchScreen.storyboard */; };
-		D0BE0FA3207279FC00E60279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BE0FA2207279FC00E60279 /* main.m */; };
+		DE276A0020735D590024AC77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2769FF20735D590024AC77 /* AppDelegate.m */; };
+		DE276A0320735D590024AC77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE276A0220735D590024AC77 /* ViewController.m */; };
+		DE276A0620735D590024AC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE276A0420735D590024AC77 /* Main.storyboard */; };
+		DE276A0820735D590024AC77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE276A0720735D590024AC77 /* Assets.xcassets */; };
+		DE276A0B20735D590024AC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE276A0920735D590024AC77 /* LaunchScreen.storyboard */; };
+		DE276A0E20735D590024AC77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE276A0D20735D590024AC77 /* main.m */; };
+		DE5C9DC2207361C100AE472E /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C9DC1207361C100AE472E /* ShopView.m */; };
+		DE5C9DC4207361D900AE472E /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5C9DC3207361D900AE472E /* ShopView.xib */; };
+		DE5C9DC62073703E00AE472E /* shopData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE5C9DC52073703E00AE472E /* shopData.plist */; };
+		DE5C9DCD2073715700AE472E /* ShopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C9DCC2073715700AE472E /* ShopItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0BE0F90207279FB00E60279 /* 10-综合练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-综合练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BE0F93207279FB00E60279 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D0BE0F94207279FB00E60279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0BE0F96207279FB00E60279 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0BE0F97207279FB00E60279 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D0BE0F9A207279FC00E60279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0BE0F9C207279FC00E60279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0BE0F9F207279FC00E60279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0BE0FA1207279FC00E60279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0BE0FA2207279FC00E60279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE2769FB20735D590024AC77 /* 10-综合练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-综合练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2769FE20735D590024AC77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE2769FF20735D590024AC77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE276A0120735D590024AC77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE276A0220735D590024AC77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE276A0520735D590024AC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE276A0720735D590024AC77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE276A0A20735D590024AC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE276A0C20735D590024AC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE276A0D20735D590024AC77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5C9DC0207361C100AE472E /* ShopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
+		DE5C9DC1207361C100AE472E /* ShopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
+		DE5C9DC3207361D900AE472E /* ShopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopView.xib; sourceTree = "<group>"; };
+		DE5C9DC52073703E00AE472E /* shopData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shopData.plist; sourceTree = "<group>"; };
+		DE5C9DCB2073715700AE472E /* ShopItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopItem.h; sourceTree = "<group>"; };
+		DE5C9DCC2073715700AE472E /* ShopItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0BE0F8D207279FB00E60279 /* Frameworks */ = {
+		DE2769F820735D590024AC77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,34 +49,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D0BE0F87207279FB00E60279 = {
+		DE2769F220735D590024AC77 = {
 			isa = PBXGroup;
 			children = (
-				D0BE0F92207279FB00E60279 /* 10-综合练习 */,
-				D0BE0F91207279FB00E60279 /* Products */,
+				DE2769FD20735D590024AC77 /* 10-综合练习 */,
+				DE2769FC20735D590024AC77 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D0BE0F91207279FB00E60279 /* Products */ = {
+		DE2769FC20735D590024AC77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0BE0F90207279FB00E60279 /* 10-综合练习.app */,
+				DE2769FB20735D590024AC77 /* 10-综合练习.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0BE0F92207279FB00E60279 /* 10-综合练习 */ = {
+		DE2769FD20735D590024AC77 /* 10-综合练习 */ = {
 			isa = PBXGroup;
 			children = (
-				D0BE0F93207279FB00E60279 /* AppDelegate.h */,
-				D0BE0F94207279FB00E60279 /* AppDelegate.m */,
-				D0BE0F96207279FB00E60279 /* ViewController.h */,
-				D0BE0F97207279FB00E60279 /* ViewController.m */,
-				D0BE0F99207279FC00E60279 /* Main.storyboard */,
-				D0BE0F9C207279FC00E60279 /* Assets.xcassets */,
-				D0BE0F9E207279FC00E60279 /* LaunchScreen.storyboard */,
-				D0BE0FA1207279FC00E60279 /* Info.plist */,
-				D0BE0FA2207279FC00E60279 /* main.m */,
+				DE2769FE20735D590024AC77 /* AppDelegate.h */,
+				DE2769FF20735D590024AC77 /* AppDelegate.m */,
+				DE276A0120735D590024AC77 /* ViewController.h */,
+				DE276A0220735D590024AC77 /* ViewController.m */,
+				DE276A0420735D590024AC77 /* Main.storyboard */,
+				DE276A0720735D590024AC77 /* Assets.xcassets */,
+				DE276A0920735D590024AC77 /* LaunchScreen.storyboard */,
+				DE276A0C20735D590024AC77 /* Info.plist */,
+				DE276A0D20735D590024AC77 /* main.m */,
+				DE5C9DC0207361C100AE472E /* ShopView.h */,
+				DE5C9DC1207361C100AE472E /* ShopView.m */,
+				DE5C9DC3207361D900AE472E /* ShopView.xib */,
+				DE5C9DC52073703E00AE472E /* shopData.plist */,
+				DE5C9DCB2073715700AE472E /* ShopItem.h */,
+				DE5C9DCC2073715700AE472E /* ShopItem.m */,
 			);
 			path = "10-综合练习";
 			sourceTree = "<group>";
@@ -74,13 +90,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0BE0F8F207279FB00E60279 /* 10-综合练习 */ = {
+		DE2769FA20735D590024AC77 /* 10-综合练习 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0BE0FA6207279FC00E60279 /* Build configuration list for PBXNativeTarget "10-综合练习" */;
+			buildConfigurationList = DE276A1120735D590024AC77 /* Build configuration list for PBXNativeTarget "10-综合练习" */;
 			buildPhases = (
-				D0BE0F8C207279FB00E60279 /* Sources */,
-				D0BE0F8D207279FB00E60279 /* Frameworks */,
-				D0BE0F8E207279FB00E60279 /* Resources */,
+				DE2769F720735D590024AC77 /* Sources */,
+				DE2769F820735D590024AC77 /* Frameworks */,
+				DE2769F920735D590024AC77 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,25 +104,25 @@
 			);
 			name = "10-综合练习";
 			productName = "10-综合练习";
-			productReference = D0BE0F90207279FB00E60279 /* 10-综合练习.app */;
+			productReference = DE2769FB20735D590024AC77 /* 10-综合练习.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D0BE0F88207279FB00E60279 /* Project object */ = {
+		DE2769F320735D590024AC77 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = xiaoming;
+				ORGANIZATIONNAME = zkinc;
 				TargetAttributes = {
-					D0BE0F8F207279FB00E60279 = {
+					DE2769FA20735D590024AC77 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D0BE0F8B207279FB00E60279 /* Build configuration list for PBXProject "10-综合练习" */;
+			buildConfigurationList = DE2769F620735D590024AC77 /* Build configuration list for PBXProject "10-综合练习" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,55 +130,59 @@
 				en,
 				Base,
 			);
-			mainGroup = D0BE0F87207279FB00E60279;
-			productRefGroup = D0BE0F91207279FB00E60279 /* Products */;
+			mainGroup = DE2769F220735D590024AC77;
+			productRefGroup = DE2769FC20735D590024AC77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0BE0F8F207279FB00E60279 /* 10-综合练习 */,
+				DE2769FA20735D590024AC77 /* 10-综合练习 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D0BE0F8E207279FB00E60279 /* Resources */ = {
+		DE2769F920735D590024AC77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BE0FA0207279FC00E60279 /* LaunchScreen.storyboard in Resources */,
-				D0BE0F9D207279FC00E60279 /* Assets.xcassets in Resources */,
-				D0BE0F9B207279FC00E60279 /* Main.storyboard in Resources */,
+				DE5C9DC62073703E00AE472E /* shopData.plist in Resources */,
+				DE276A0B20735D590024AC77 /* LaunchScreen.storyboard in Resources */,
+				DE276A0820735D590024AC77 /* Assets.xcassets in Resources */,
+				DE5C9DC4207361D900AE472E /* ShopView.xib in Resources */,
+				DE276A0620735D590024AC77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0BE0F8C207279FB00E60279 /* Sources */ = {
+		DE2769F720735D590024AC77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BE0F98207279FB00E60279 /* ViewController.m in Sources */,
-				D0BE0FA3207279FC00E60279 /* main.m in Sources */,
-				D0BE0F95207279FB00E60279 /* AppDelegate.m in Sources */,
+				DE276A0320735D590024AC77 /* ViewController.m in Sources */,
+				DE276A0E20735D590024AC77 /* main.m in Sources */,
+				DE5C9DC2207361C100AE472E /* ShopView.m in Sources */,
+				DE5C9DCD2073715700AE472E /* ShopItem.m in Sources */,
+				DE276A0020735D590024AC77 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0BE0F99207279FC00E60279 /* Main.storyboard */ = {
+		DE276A0420735D590024AC77 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0BE0F9A207279FC00E60279 /* Base */,
+				DE276A0520735D590024AC77 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D0BE0F9E207279FC00E60279 /* LaunchScreen.storyboard */ = {
+		DE276A0920735D590024AC77 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0BE0F9F207279FC00E60279 /* Base */,
+				DE276A0A20735D590024AC77 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D0BE0FA4207279FC00E60279 /* Debug */ = {
+		DE276A0F20735D590024AC77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		D0BE0FA5207279FC00E60279 /* Release */ = {
+		DE276A1020735D590024AC77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +294,7 @@
 			};
 			name = Release;
 		};
-		D0BE0FA7207279FC00E60279 /* Debug */ = {
+		DE276A1220735D590024AC77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -282,13 +302,13 @@
 				DEVELOPMENT_TEAM = HWPJQHW6K7;
 				INFOPLIST_FILE = "10-综合练习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CXM.-0-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ng.MicroMessage.-0-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D0BE0FA8207279FC00E60279 /* Release */ = {
+		DE276A1320735D590024AC77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +316,7 @@
 				DEVELOPMENT_TEAM = HWPJQHW6K7;
 				INFOPLIST_FILE = "10-综合练习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CXM.-0-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ng.MicroMessage.-0-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0BE0F8B207279FB00E60279 /* Build configuration list for PBXProject "10-综合练习" */ = {
+		DE2769F620735D590024AC77 /* Build configuration list for PBXProject "10-综合练习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0BE0FA4207279FC00E60279 /* Debug */,
-				D0BE0FA5207279FC00E60279 /* Release */,
+				DE276A0F20735D590024AC77 /* Debug */,
+				DE276A1020735D590024AC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0BE0FA6207279FC00E60279 /* Build configuration list for PBXNativeTarget "10-综合练习" */ = {
+		DE276A1120735D590024AC77 /* Build configuration list for PBXNativeTarget "10-综合练习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0BE0FA7207279FC00E60279 /* Debug */,
-				D0BE0FA8207279FC00E60279 /* Release */,
+				DE276A1220735D590024AC77 /* Debug */,
+				DE276A1320735D590024AC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D0BE0F88207279FB00E60279 /* Project object */;
+	rootObject = DE2769F320735D590024AC77 /* Project object */;
 }

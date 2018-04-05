@@ -1,9 +1,7 @@
 //
 //  AppDelegate.m
 //  10-综合练习
-//
-//  Created by xiaoming on 2018/4/2.
-//  Copyright © 2018年 xiaoming. All rights reserved.
+//  Created by zkinc on 2018/4/3.
 //
 
 #import "AppDelegate.h"
