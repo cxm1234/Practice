@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CCPageView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    CCPageView *pageView = [CCPageView pageView];
+    pageView.center = self.view.center;
+    pageView.imageNames = @[@"img_01",@"img_02",@"img_03",@"img_04",@"img_05"];
+    [self.view addSubview:pageView];
 }
 
 

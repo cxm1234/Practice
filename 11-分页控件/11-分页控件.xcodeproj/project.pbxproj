@@ -13,6 +13,8 @@
 		D0BE0FBF2075E11E00E60279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0FBE2075E11E00E60279 /* Assets.xcassets */; };
 		D0BE0FC22075E11E00E60279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BE0FC02075E11E00E60279 /* LaunchScreen.storyboard */; };
 		D0BE0FC52075E11E00E60279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BE0FC42075E11E00E60279 /* main.m */; };
+		D0FE0FFE2075E53A00E4624B /* CCPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE0FFD2075E53A00E4624B /* CCPageView.m */; };
+		D0FE10002075E54900E4624B /* CCPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FE0FFF2075E54900E4624B /* CCPageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D0BE0FC12075E11E00E60279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0BE0FC32075E11E00E60279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0BE0FC42075E11E00E60279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0FE0FFC2075E53A00E4624B /* CCPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPageView.h; sourceTree = "<group>"; };
+		D0FE0FFD2075E53A00E4624B /* CCPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPageView.m; sourceTree = "<group>"; };
+		D0FE0FFF2075E54900E4624B /* CCPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CCPageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				D0BE0FC02075E11E00E60279 /* LaunchScreen.storyboard */,
 				D0BE0FC32075E11E00E60279 /* Info.plist */,
 				D0BE0FC42075E11E00E60279 /* main.m */,
+				D0FE0FFC2075E53A00E4624B /* CCPageView.h */,
+				D0FE0FFD2075E53A00E4624B /* CCPageView.m */,
+				D0FE0FFF2075E54900E4624B /* CCPageView.xib */,
 			);
 			path = "11-分页控件";
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BE0FC22075E11E00E60279 /* LaunchScreen.storyboard in Resources */,
+				D0FE10002075E54900E4624B /* CCPageView.xib in Resources */,
 				D0BE0FBF2075E11E00E60279 /* Assets.xcassets in Resources */,
 				D0BE0FBD2075E11E00E60279 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BE0FBA2075E11E00E60279 /* ViewController.m in Sources */,
+				D0FE0FFE2075E53A00E4624B /* CCPageView.m in Sources */,
 				D0BE0FC52075E11E00E60279 /* main.m in Sources */,
 				D0BE0FB72075E11E00E60279 /* AppDelegate.m in Sources */,
 			);
