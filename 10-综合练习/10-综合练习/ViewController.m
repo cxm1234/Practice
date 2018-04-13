@@ -22,7 +22,6 @@
 @end
 
 @implementation ViewController
-
 -(NSArray *)dataArr
 {
     if(_dataArr == nil){
@@ -42,7 +41,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
 - (IBAction)add:(UIButton *)sender {
     CGFloat carWidth = self.shopCarView.bounds.size.width;
     CGFloat carHeight = self.shopCarView.bounds.size.height;
