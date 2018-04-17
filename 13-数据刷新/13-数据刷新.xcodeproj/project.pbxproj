@@ -10,6 +10,7 @@
 		0FBCBD5958DFDEDDE36512F1 /* libPods-13-数据刷新.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21423DA425FD86B9D72C789D /* libPods-13-数据刷新.a */; };
 		DE7C8F90208608BA00C66D0C /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7C8F8F208608BA00C66D0C /* wine.plist */; };
 		DE7C8F9320860E2700C66D0C /* ESWine.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7C8F9220860E2700C66D0C /* ESWine.m */; };
+		DE7C8F962086119700C66D0C /* ESWineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7C8F952086119700C66D0C /* ESWineCell.m */; };
 		DECE85A6208600100052E055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE85A5208600100052E055 /* AppDelegate.m */; };
 		DECE85A9208600100052E055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE85A8208600100052E055 /* ViewController.m */; };
 		DECE85AC208600100052E055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECE85AA208600100052E055 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		DE7C8F8F208608BA00C66D0C /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = "<group>"; };
 		DE7C8F9120860E2700C66D0C /* ESWine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESWine.h; sourceTree = "<group>"; };
 		DE7C8F9220860E2700C66D0C /* ESWine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESWine.m; sourceTree = "<group>"; };
+		DE7C8F942086119700C66D0C /* ESWineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESWineCell.h; sourceTree = "<group>"; };
+		DE7C8F952086119700C66D0C /* ESWineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESWineCell.m; sourceTree = "<group>"; };
 		DECE85A1208600100052E055 /* 13-数据刷新.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13-数据刷新.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECE85A4208600100052E055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DECE85A5208600100052E055 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				DECE85B3208600120052E055 /* main.m */,
 				DE7C8F9120860E2700C66D0C /* ESWine.h */,
 				DE7C8F9220860E2700C66D0C /* ESWine.m */,
+				DE7C8F942086119700C66D0C /* ESWineCell.h */,
+				DE7C8F952086119700C66D0C /* ESWineCell.m */,
 			);
 			path = "13-数据刷新";
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				DECE85A9208600100052E055 /* ViewController.m in Sources */,
 				DECE85B4208600120052E055 /* main.m in Sources */,
 				DE7C8F9320860E2700C66D0C /* ESWine.m in Sources */,
+				DE7C8F962086119700C66D0C /* ESWineCell.m in Sources */,
 				DECE85A6208600100052E055 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
