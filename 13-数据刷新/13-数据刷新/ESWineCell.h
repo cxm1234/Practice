@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class ESWine;
 @interface ESWineCell : UITableViewCell
+
+@property(nonatomic, strong) ESWine *wine;
 
 @end

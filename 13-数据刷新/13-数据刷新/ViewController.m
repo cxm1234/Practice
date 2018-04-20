@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ESWineCell.h"
 #import "ESWine.h"
 #import <MJExtension/MJExtension.h>
 
@@ -18,6 +19,14 @@
 @end
 
 @implementation ViewController
+
+-(NSMutableArray *)selectedIndexPath
+{
+    if(!_selectedIndexPath){
+        _selectedIndexPath = [NSMutableArray array];
+    }
+    return _selectedIndexPath;
+}
 
 -(NSMutableArray *)wineArray
 {
@@ -34,24 +43,47 @@
 
 - (IBAction)remove {
     
+    NSLog(@"remove ************");
+    NSMutableArray *deletedWine = [NSMutableArray array];
+    for (NSIndexPath *indexPath in self.selectedIndexPath) {
+        [deletedWine addObject:self.wineArray[indexPath.row]];
+    }
     
+    [self.wineArray removeObjectsInArray:deletedWine];
+    
+    [self.tableView deleteRowsAtIndexPaths:self.selectedIndexPath withRowAnimation:UITableViewRowAnimationAutomatic];
+    
+    [self.selectedIndexPath removeAllObjects];
 }
 
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.wineArray.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    static NSString *ID = @"wine";
+    ESWineCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if(cell == nil){
+        cell = [[ESWineCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
+    }
+    cell.wine = self.wineArray[indexPath.row];
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ESWine *wine = self.wineArray[indexPath.row];
+    if (wine.isChecked){
+        wine.checked = NO;
+        [self.selectedIndexPath removeObject:indexPath];
+    }else {
+        wine.checked = YES;
+        [self.selectedIndexPath addObject:indexPath];
+    }
     
-    return nil;
+    [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
