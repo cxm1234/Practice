@@ -31,6 +31,7 @@ NSString *ID = @"status";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[ESStatusCell class] forCellReuseIdentifier:ID];
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
