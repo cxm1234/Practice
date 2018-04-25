@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0025A54208E307900C6C3BF /* ESOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0025A53208E307900C6C3BF /* ESOperation.m */; };
 		DE6EB104208DF38100C4042B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6EB103208DF38100C4042B /* AppDelegate.m */; };
 		DE6EB107208DF38100C4042B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6EB106208DF38100C4042B /* ViewController.m */; };
 		DE6EB10A208DF38100C4042B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6EB108208DF38100C4042B /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0025A52208E307900C6C3BF /* ESOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESOperation.h; sourceTree = "<group>"; };
+		D0025A53208E307900C6C3BF /* ESOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESOperation.m; sourceTree = "<group>"; };
 		DE6EB0FF208DF38100C4042B /* 21-NSOperationQueue的基本使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21-NSOperationQueue的基本使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6EB102208DF38100C4042B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE6EB103208DF38100C4042B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				DE6EB10D208DF38300C4042B /* LaunchScreen.storyboard */,
 				DE6EB110208DF38300C4042B /* Info.plist */,
 				DE6EB111208DF38300C4042B /* main.m */,
+				D0025A52208E307900C6C3BF /* ESOperation.h */,
+				D0025A53208E307900C6C3BF /* ESOperation.m */,
 			);
 			path = "21-NSOperationQueue的基本使用";
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6EB107208DF38100C4042B /* ViewController.m in Sources */,
+				D0025A54208E307900C6C3BF /* ESOperation.m in Sources */,
 				DE6EB112208DF38300C4042B /* main.m in Sources */,
 				DE6EB104208DF38100C4042B /* AppDelegate.m in Sources */,
 			);
