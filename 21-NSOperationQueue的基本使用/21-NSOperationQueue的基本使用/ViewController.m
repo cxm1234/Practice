@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ESOperation.h"
 
 @interface ViewController ()
 
@@ -87,10 +88,6 @@
 - (void)download3
 {
     NSLog(@"download3 %@",[NSThread currentThread]);
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
